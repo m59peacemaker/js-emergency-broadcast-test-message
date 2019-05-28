@@ -1,0 +1,31 @@
+{
+  "name": "emergency-broadcast-test-message",
+  "version": "0.1.0",
+  "description": "Get a string of that often annoying, but maybe sometimes helpful TV EBS message.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.spec.js"
+  },
+  "keywords": [
+    "emergecy",
+    "broadcast",
+    "system",
+    "EBS",
+    "EANS",
+    "test",
+    "tv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/js-emergency-broadcast-test-message"
+  },
+  "author": "Johnny Hauser <johnnyhauser@gmail.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "english-list": "^1.0.0",
+    "indefinite": "^2.2.1"
+  },
+  "devDependencies": {
+    "zora": "^3.0.1"
+  }
+}
